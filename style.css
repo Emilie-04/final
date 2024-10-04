@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,688;1,688&display=swap");
+
+h2,
+h3 {
+  text-align: center;
+}
+
+h3:hover {
+  color: brown;
+}
+
+header div {
+  border: 0.5em solid hwb(31 61% 18%);
+  background-color: hwb(31 61% 18%);
+  display: flex;
+  justify-content: center;
+  font-size: 2.2em;
+  font-family: "Alumni Sans", sans-serif;
+  font-style: normal;
+  text-decoration: underline;
+}
+
+header ul,
+a {
+  color: black;
+  border: 0.5em solid hwb(31 61% 18%);
+  background-color: hwb(31 61% 18%);
+  font-size: 1.1em;
+  display: flex;
+  gap: 3em;
+  justify-content: center;
+  list-style: none;
+  width: 100%;
+  font-weight: bold;
+}
+a:hover {
+  color: brown;
+  background-color: rgb(67, 19, 19);
+  transition: all 500ms ease;
+  transform: scale(1.2);
+}
+
+p {
+  color: black;
+  text-align: center;
+}
+
+section div {
+  border: 0.2em solid rgb(90, 23, 23);
+  background-color: hwb(30 85% 5%);
+  width: 30%;
+  height: 32em;
+  border-radius: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+
+section div img {
+  max-height: 12em;
+  max-width: 12em;
+}
+
+main > div {
+  display: flex;
+  justify-content: center;
+  height: 15em;
+}
+
+section,
+p {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2em;
+}
+
+
+footer ul {
+  width: 100%;
+  bottom: 0;
+  color: black;
+  border: 0.5em solid hwb(31 61% 18%);
+  background-color: hwb(31 61% 18%);
+  display: flex;
+  gap: 3em;
+  list-style-type: none;
+  justify-content: center;
+  text-decoration: none;
+}
+
+footer img:hover {
+  background-color: brown;
+  border-radius: 2em;
+}
